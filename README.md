@@ -44,8 +44,8 @@ export CACHE_TTL="60"
 ## Сборка и запуск
 1. Клонирование и переход в директорию:
 ```bash
-      git clone git@github.com:USERNAME/REPO.git
-      cd REPO
+git clone git@github.com:USERNAME/REPO.git
+cd REPO
 ```
 2. Создание папки сборки и запуск CMake:
 ```bash
