@@ -48,13 +48,13 @@ export CACHE_TTL="60"
       cd REPO
 ```
 2. Создание папки сборки и запуск CMake:
-   ```bash
+```bash
 mkdir build && cd build
 cmake ..
 make -j$(nproc)
 ```
 3. Запуск сервера:
-   ```bash
+```bash
 ./myservice
 ```
    Сервер слушает указанный порт, выводит логи об ошибках подключения.
