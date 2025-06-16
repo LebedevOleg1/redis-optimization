@@ -124,7 +124,7 @@ int main() {
         if (redis_client) {
             try {
                 redis_client->set(cache_key, json_str);
-                redis_client->expire(cache_key, 10);
+                redis_client->expire(cache_key, 110);
             }
             catch (const std::exception &e) {
                 std::cerr << "Redis SET error (" << cache_key << "): " << e.what() << std::endl;
